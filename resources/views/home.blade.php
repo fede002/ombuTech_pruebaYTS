@@ -29,12 +29,12 @@
                         <hr>
                         <div class="row lista">
                             @foreach($listadoDePeliculas as $key => $v)
-                            <div class="col-md-2">
+                            <div class="col-md-2" id="{{$v["id"]}}">
                                 <div class="card">
-                                    <a href="{{$v->url}}" target="_blank">
+                                    <a href="{{$v["url"]}}" target="_blank">
                                         <div class="card-body">
-                                            <h6>{{$v->title_long}} Rating: {{$v->rating}}</h6>
-                                            <img class="img-fluid" src="{{$v->medium_cover_image}}" alt="{{$v->title_long}}">
+                                            <h6>{{$v["titulo"]}} Rating: {{$v["puntaje"]}}</h6>
+                                            <img class="img-fluid" src="{{$v["imagen"]}}" alt="{{$v["titulo"]}}">
                                         </div>
                                     </a>
                                 </div>

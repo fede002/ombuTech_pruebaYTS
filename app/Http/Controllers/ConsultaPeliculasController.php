@@ -9,7 +9,7 @@ class ConsultaPeliculasController extends Controller
 {
     public function verListadoDePeliculas(Request $rq)
     {
-        $listadoDePeliculas = srvYTS::listarPeliculas(0);
+        $listadoDePeliculas = srvYTS::listarPeliculas(0);        
         return view('home', compact("listadoDePeliculas"));
     }
 

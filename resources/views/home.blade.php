@@ -18,7 +18,7 @@
                     <div class="card-body">
                         <h3>Salida en Json</h3>
                         <hr>
-                        <a href="/json" target="_blanck" class="btn btn-info">Ver salida en Json</a>
+                        <a href="./json" target="_blanck" class="btn btn-info">Ver salida en Json</a>
                     </div>
                 </div>
             </div>
